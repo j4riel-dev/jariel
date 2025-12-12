@@ -21,7 +21,7 @@ const Index = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-            Hey, I'm Raphael{" "}
+            Hey, I'm Jariel{" "}
             <motion.span
               className="inline-block"
               animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
