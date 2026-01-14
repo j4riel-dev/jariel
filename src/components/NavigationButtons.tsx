@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { User, FolderOpen, Wrench, PartyPopper, Mail } from "lucide-react";
+import { User, FolderOpen, Wrench, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface NavButtonProps {
@@ -62,12 +62,6 @@ const NavigationButtons = () => {
       label: "Skills",
       to: "/skills",
       gradient: "bg-gradient-to-br from-pastel-green/20 to-transparent",
-    },
-    {
-      icon: <PartyPopper className="w-6 h-6" />,
-      label: "Fun",
-      to: "/fun",
-      gradient: "bg-gradient-to-br from-pastel-yellow/20 to-transparent",
     },
     {
       icon: <Mail className="w-6 h-6" />,
