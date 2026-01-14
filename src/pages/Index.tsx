@@ -20,8 +20,8 @@ const Index = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-            Hey, I'm Jariel{" "}
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
+            Olá, me chamo Jariel{" "}
             <motion.span
               className="inline-block"
               animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
@@ -30,9 +30,6 @@ const Index = () => {
               👋
             </motion.span>
           </h1>
-          <p className="text-xl md:text-2xl font-medium bg-gradient-to-r from-primary via-pastel-pink to-pastel-blue bg-clip-text text-transparent">
-            AI Portfolio
-          </p>
         </motion.div>
         
         {/* Subtitle */}
@@ -42,7 +39,7 @@ const Index = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          Full-stack developer passionate about AI, design, and creating beautiful digital experiences.
+          Desenvolvedor full-stack apaixonado por IA, design e criação de experiências digitais incríveis.
         </motion.p>
         
         {/* Ask Me Input */}
