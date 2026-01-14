@@ -47,25 +47,25 @@ const NavigationButtons = () => {
   const navItems = [
     {
       icon: <User className="w-6 h-6" />,
-      label: "Me",
+      label: "Sobre mim",
       to: "/me",
       gradient: "bg-gradient-to-br from-pastel-pink/20 to-transparent",
     },
     {
       icon: <FolderOpen className="w-6 h-6" />,
-      label: "Projects",
+      label: "Projetos",
       to: "/projects",
       gradient: "bg-gradient-to-br from-pastel-blue/20 to-transparent",
     },
     {
       icon: <Wrench className="w-6 h-6" />,
-      label: "Skills",
+      label: "Habilidades",
       to: "/skills",
       gradient: "bg-gradient-to-br from-pastel-green/20 to-transparent",
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      label: "Contact",
+      label: "Contato",
       to: "/contact",
       gradient: "bg-gradient-to-br from-pastel-lilac/20 to-transparent",
     },
